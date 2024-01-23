@@ -1,0 +1,515 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>My Portfolio</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="mediaquaries.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"
+    />
+  </head>
+  <body>
+    <nav id="desktop-nav">
+      <div class="logo">MD ATIQULLAH KHAN</div>
+      <div>
+        <ul class="nav-links">
+          <li><a href="#about">About</a></li>
+          <li><a href="#experience">Experience</a></li>
+          <li><a href="#project">Project</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </div>
+    </nav>
+    <nav id="hamburger-nav">
+      <div class="logo">MD ATIQULLAH KHAN</div>
+      <div class="hamburger-menu">
+        <div class="hamburger-icon" onclick="toggleMenu()">
+          <span></span>
+          <span></span>
+          <span></span>
+        </div>
+        <div class="menu-links">
+          <li><a href="#about" onclick="toggleMenu()">About</a></li>
+          <li><a href="#experience" onclick="toggleMenu()">Experience</a></li>
+          <li><a href="#project" onclick="toggleMenu()">Project</a></li>
+          <li><a href="#contact" onclick="toggleMenu()">Contact</a></li>
+        </div>
+      </div>
+    </nav>
+
+    <section id="profile">
+      <div class="section__pic-container">
+        <img src="asserts/profile-5.png" alt="Profile Picture" />
+      </div>
+      <div class="section__text">
+        <p class="section__text__p1">Hello,I m</p>
+        <h1 class="title">MD ATIQULLAH KHAN</h1>
+        <p class="section__text__p2">FullStack Web Developer</p>
+        <div class="btn-container">
+          <button
+            class="btn btn-color-2"
+            onclick="window.open('asserts/Md_Atiqullah_khan.pdf')"
+          >
+            Download Cv
+          </button>
+          <button class="btn btn-color-1" onclick="location.href='./#contact'">
+            Contact Info
+          </button>
+        </div>
+        <div id="socials-container">
+          <img
+            class="icon"
+            src="asserts/linkedin.png"
+            alt="My Linkdin Profile"
+            onclick="location.href='https://www.linkedin.com/in/mdatiqullahkhan2711/'"
+          />
+          <img
+            class="icon"
+            src="asserts/github.png"
+            alt="My Github Profile"
+            onclick="location.href='https://github.com/Ateeq2711'"
+          />
+        </div>
+      </div>
+      <!-- <img
+        class="icon arrow"
+        onclick="location.href='#about'"
+        src="asserts/arrow (2).png"
+        alt="Arrow icon"
+      /> -->
+    </section>
+
+    <section id="about">
+      <p class="section__text__p1">Get To Know More</p>
+      <h1 class="title">About Me</h1>
+      <div class="section-container">
+        <div class="section__pic-container">
+          <img
+            class="about-pic"
+            src="asserts/profile-pic-4.png"
+            alt="Profile Picture"
+          />
+        </div>
+        <div class="about-details-container">
+          <div class="about-containers">
+            <div class="details-container">
+              <img
+                class="icon"
+                src="asserts/experience.png"
+                alt="Experience Icon"
+              />
+              <h3>Experience</h3>
+              <p>1.4 Year <br />FullStack Web Developer</p>
+            </div>
+            <div class="details-container">
+              <img
+                class="icon"
+                src="asserts/education.png"
+                alt="Education Icon"
+              />
+              <h3>Education</h3>
+              <p>B.tech<br />Bachelors of Technology</p>
+            </div>
+          </div>
+          <div class="text-container">
+            <p>
+              With 1.4 years of hands-on experience,I am a dedicated full stack
+              web developer ,my passion lies in crafting seamless digit
+              experiences.With expertise in both front-end and back-end
+              technologies,I thrive on building dynamic,user-centeric
+              website.Leveraging languages like HTML,CSS,JavaScript.On the
+              server-side,I wield Java,SpringBoot,Hibernate and database like
+              MySql,Mssql to ensure robust functionality.My 1.4 years of
+              experience have honed my skills in delivering clean,efficient code
+              while balancing aesthetics and functionality.Eager to continue
+              evolving,I am to create innovative,scalable solution that push the
+              boundaries of web development.
+            </p>
+          </div>
+        </div>
+      </div>
+      <img
+        class="icon arrow"
+        onclick="location.href='#experience'"
+        src="asserts/arrow (2).png"
+        alt="Arrow icon"
+      />
+    </section>
+
+    <section id="experience">
+      <p class="section__text__p1">Explore My</p>
+      <h1 class="title">Experience</h1>
+      <div class="experience-details-container">
+        <div class="about-containers">
+          <div class="details-container">
+            <h2 class="experience-sub-title">Front-end Development</h2>
+            <div class="article-container">
+              <article>
+                <img
+                  class="icon"
+                  src="asserts/checkmark.png"
+                  alt="Experience Icon"
+                />
+                <div>
+                  <h3>HTML</h3>
+                  <p>Experienced</p>
+                </div>
+              </article>
+              <article>
+                <img
+                  class="icon"
+                  src="asserts/checkmark.png"
+                  alt="Experience Icon"
+                />
+                <div>
+                  <h3>XHTML</h3>
+                  <p>Experienced</p>
+                </div>
+              </article>
+              <article>
+                <img
+                  class="icon"
+                  src="asserts/checkmark.png"
+                  alt="Experience Icon"
+                />
+                <div>
+                  <h3>CSS</h3>
+                  <p>Experienced</p>
+                </div>
+              </article>
+              <article>
+                <img
+                  class="icon"
+                  src="asserts/checkmark.png"
+                  alt="Experience Icon"
+                />
+                <div>
+                  <h3>JavaScript</h3>
+                  <p>Intermediate</p>
+                </div>
+              </article>
+              <article>
+                <img
+                  class="icon"
+                  src="asserts/checkmark.png"
+                  alt="Experience Icon"
+                />
+                <div>
+                  <h3>JSP</h3>
+                  <p>Intermediate</p>
+                </div>
+              </article>
+              <article>
+                <img
+                  class="icon"
+                  src="asserts/checkmark.png"
+                  alt="Experience Icon"
+                />
+                <div>
+                  <h3>JSF</h3>
+                  <p>Intermediate</p>
+                </div>
+              </article>
+            </div>
+          </div>
+
+          <div class="details-container">
+            <h2 class="experience-sub-title">Back-end Development</h2>
+            <div class="article-container">
+              <article>
+                <img
+                  class="icon"
+                  src="asserts/checkmark.png"
+                  alt="Experience Icon"
+                />
+                <div>
+                  <h3>JAVA</h3>
+                  <p>Experienced</p>
+                </div>
+              </article>
+              <article>
+                <img
+                  class="icon"
+                  src="asserts/checkmark.png"
+                  alt="Experience Icon"
+                />
+                <div>
+                  <h3>SPRINGBOOT</h3>
+                  <p>Experienced</p>
+                </div>
+              </article>
+              <article>
+                <img
+                  class="icon"
+                  src="asserts/checkmark.png"
+                  alt="Experience Icon"
+                />
+                <div>
+                  <h3>HIBERNATE</h3>
+                  <p>Experienced</p>
+                </div>
+              </article>
+              <article>
+                <img
+                  class="icon"
+                  src="asserts/checkmark.png"
+                  alt="Experience Icon"
+                />
+                <div>
+                  <h3>SERVLET</h3>
+                  <p>Intermediate</p>
+                </div>
+              </article>
+              <article>
+                <img
+                  class="icon"
+                  src="asserts/checkmark.png"
+                  alt="Experience Icon"
+                />
+                <div>
+                  <h3>JDBC</h3>
+                  <p>Intermediate</p>
+                </div>
+              </article>
+              <article>
+                <img
+                  class="icon"
+                  src="asserts/checkmark.png"
+                  alt="Experience Icon"
+                />
+                <div>
+                  <h3>MYSQL</h3>
+                  <p>Intermediate</p>
+                </div>
+              </article>
+            </div>
+          </div>
+        </div>
+      </div>
+      <img
+        class="icon arrow"
+        onclick="location.href='#projects'"
+        src="asserts/arrow (2).png"
+        alt="Arrow icon"
+      />
+    </section>
+
+    <section id="projects">
+      <div class="section__text__p1">Browse My Recent</div>
+      <h1 class="title">Project</h1>
+      <div class="experience-details-container">
+        <div class="about-containers">
+          <div class="swiper mySwiper">
+            <div class="swiper-wrapper">
+              <div class="swiper-slide">
+                <div class="details-container color-container">
+                  <div class="article-container">
+                    <img
+                      class="project-img"
+                      src="asserts/Untitled design (4).png"
+                      alt="project 1"
+                    />
+                  </div>
+                  <h2 class="experience-sub-title project-title">
+                    Project One
+                  </h2>
+                  <div class="btn-container">
+                    <button
+                      class="btn btn-color-2"
+                      onclick="window.open('https://github.com/Ateeq2711/background_change_effect.git', '_blank')"
+                    >
+                      Github
+                    </button>
+                    <button
+                      class="btn btn-color-2"
+                      onclick="window.open('https://ateeq2711.github.io/background_change_effect/', '_blank')"
+                    >
+                      Live Demo
+                    </button>
+                  </div>
+                </div>
+              </div>
+              <div class="swiper-slide">
+                <div class="details-container color-container">
+                  <div class="article-container">
+                    <img
+                      class="project-img"
+                      src="asserts/wheather_website.png"
+                      alt="project 2"
+                    />
+                  </div>
+                  <h2 class="experience-sub-title project-title">
+                    Project Two
+                  </h2>
+                  <div class="btn-container">
+                    <button
+                      class="btn btn-color-2"
+                      onclick="window.open('https://github.com/Ateeq2711/weather_app.git', '_blank')"
+                    >
+                      Github
+                    </button>
+                    <button
+                      class="btn btn-color-2"
+                      onclick="window.open('https://ateeq2711.github.io/weather_app/', '_blank')"
+                    >
+                      Live Demo
+                    </button>
+                  </div>
+                </div>
+              </div>
+              <div class="swiper-slide">
+                <div class="details-container color-container">
+                  <div class="article-container">
+                    <img
+                      class="project-img"
+                      src="asserts/launcing_page.png"
+                      alt="project 3"
+                    />
+                  </div>
+                  <h2 class="experience-sub-title project-title">
+                    Project Three
+                  </h2>
+                  <div class="btn-container">
+                    <button
+                      class="btn btn-color-2"
+                      onclick="window.open('https://github.com/Ateeq2711/launching_page.git', '_blank')"
+                    >
+                      Github
+                    </button>
+                    <button
+                      class="btn btn-color-2"
+                      onclick="window.open('https://ateeq2711.github.io/launching_page/', '_blank')"
+                    >
+                      Live Demo
+                    </button>
+                  </div>
+                </div>
+              </div>
+              <div class="swiper-slide">
+                <div class="details-container color-container">
+                  <div class="article-container">
+                    <img
+                      class="project-img"
+                      src="asserts/image_searching.png"
+                      alt="project 4"
+                    />
+                  </div>
+                  <h2 class="experience-sub-title project-title">
+                    Project Four
+                  </h2>
+                  <div class="btn-container">
+                    <button
+                      class="btn btn-color-2"
+                      onclick="window.open('https://github.com/Ateeq2711/image_search.git', '_blank')"
+                    >
+                      Github
+                    </button>
+                    <button
+                      class="btn btn-color-2"
+                      onclick="window.open('https://ateeq2711.github.io/image_search/', '_blank')"
+                    >
+                      Live Demo
+                    </button>
+                  </div>
+                </div>
+              </div>
+
+              <div class="swiper-slide">
+                <div class="details-container color-container">
+                  <div class="article-container">
+                    <img
+                      class="project-img"
+                      src="asserts/speech_app.png"
+                      alt="project 5"
+                    />
+                  </div>
+                  <h2 class="experience-sub-title project-title">
+                    Project Five
+                  </h2>
+                  <div class="btn-container">
+                    <button
+                      class="btn btn-color-2"
+                      target="_blank"
+                      onclick="window.open('https://github.com/Ateeq2711/text_to_speech.git', '_blank')"
+                    >
+                      Github
+                    </button>
+                    <button
+                      class="btn btn-color-2"
+                      onclick="window.open('https://ateeq2711.github.io/text_to_speech/', '_blank')"
+                    >
+                      Live Demo
+                    </button>
+                  </div>
+                </div>
+              </div>
+
+              <!-- Add new Slider Above-->
+            </div>
+            <div class="swiper-button-next"></div>
+            <div class="swiper-button-prev"></div>
+            <div class="swiper-pagination"></div>
+          </div>
+        </div>
+      </div>
+      <img
+        class="icon arrow"
+        onclick="location.href='#contact'"
+        src="asserts/arrow (2).png"
+        alt="Arrow icon"
+      />
+    </section>
+
+    <section id="contact">
+      <p class="section__text__p1">Get in Touch</p>
+      <h1 class="title">Contact Me</h1>
+      <div class="contact-info-upper-container">
+        <div class="contact-info-container">
+          <img
+            class="icon contact-icon email-icon"
+            src="asserts/email.png"
+            alt="email icon"
+          />
+          <p>
+            <a href="mailto:mdatiqullahkhan2711@gmail.com"
+              >mdatiqullahkhan2711@gmail.com</a
+            >
+          </p>
+        </div>
+
+        <div class="contact-info-container">
+          <img
+            class="icon contact-icon"
+            src="asserts/linkedin.png"
+            alt="linkdin icon"
+          />
+          <p>
+            <a href="https://www.linkedin.com/in/mdatiqullahkhan2711/"
+              >LinkedIn</a
+            >
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <footer>
+      <nav>
+        <div class="nav-links-container">
+          <ul class="nav-links">
+            <li><a href="#about">About</a></li>
+            <li><a href="#experience">Experience</a></li>
+            <li><a href="#project">Project</a></li>
+            <li><a href="#contact">Contact</a></li>
+          </ul>
+        </div>
+      </nav>
+      <p>Copyright &#169;2023 Md Atiqullah Khan.All Rights Reserved</p>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <script src="script.js"></script>
+  </body>
+</html>
